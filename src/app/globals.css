@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf6f0;
+  --foreground: #2e2a25;
+  --primary: #5c6b50;
+  --accent: #96602e;
+  --muted: #e8e0d4;
+
+  /* Motion tokens - kept in one place so every experience moves at the
+     same unhurried pace instead of each component inventing its own
+     timing. Durations run long on purpose; nothing here should feel
+     snappy. */
+  --ease-calm: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-micro: 250ms;
+  --duration-base: 600ms;
+  --duration-reveal: 900ms;
+  --duration-unfold: 1100ms;
+  --stagger-step: 220ms;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
+  --animate-fade-in: fade-in var(--duration-base) var(--ease-calm) both;
+  --animate-fade-in-slow: fade-in var(--duration-reveal) var(--ease-calm) both;
+  --animate-unfold: unfold var(--duration-unfold) var(--ease-calm) both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes unfold {
+  from {
+    opacity: 0;
+    transform: scaleY(0.94) translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1) translateY(0);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}

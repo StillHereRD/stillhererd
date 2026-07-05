@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "favorite-song-en",
+    "text": "To hear your favorite song again.",
+    "category": "sensory",
+    "emotion": "joy",
+    "language": "en",
+    "featured": true
+  },
+  {
+    "id": "another-sunset-en",
+    "text": "To see another sunset.",
+    "category": "sensory",
+    "emotion": "wonder",
+    "language": "en"
+  },
+  {
+    "id": "make-yourself-proud-en",
+    "text": "To make yourself proud.",
+    "category": "achievement",
+    "emotion": "hope",
+    "language": "en"
+  },
+  {
+    "id": "laugh-until-cry-en",
+    "text": "To laugh until you cry.",
+    "category": "relational",
+    "emotion": "joy",
+    "language": "en"
+  },
+  {
+    "id": "smell-of-rain-en",
+    "text": "The smell of rain.",
+    "category": "sensory",
+    "emotion": "calm",
+    "language": "en"
+  },
+  {
+    "id": "puppy-kisses-en",
+    "text": "Puppy kisses.",
+    "category": "sensory",
+    "emotion": "joy",
+    "language": "en"
+  },
+  {
+    "id": "good-cry-en",
+    "text": "The feeling after a good cry.",
+    "category": "relief",
+    "emotion": "relief",
+    "language": "en"
+  },
+  {
+    "id": "hasnt-met-you-en",
+    "text": "Someone who hasn't met you yet.",
+    "category": "relational",
+    "emotion": "hope",
+    "language": "en"
+  },
+  {
+    "id": "good-coffee-en",
+    "text": "A really good cup of coffee.",
+    "category": "sensory",
+    "emotion": "calm",
+    "language": "en"
+  },
+  {
+    "id": "first-bite-en",
+    "text": "The first bite of your favorite food.",
+    "category": "sensory",
+    "emotion": "joy",
+    "language": "en"
+  },
+  {
+    "id": "rain-sleep-en",
+    "text": "Falling asleep to the sound of rain.",
+    "category": "sensory",
+    "emotion": "calm",
+    "language": "en"
+  },
+  {
+    "id": "real-hug-en",
+    "text": "A hug from someone who means it.",
+    "category": "relational",
+    "emotion": "comfort",
+    "language": "en"
+  },
+  {
+    "id": "favorite-song-es",
+    "text": "Para escuchar tu canción favorita otra vez.",
+    "category": "sensory",
+    "emotion": "joy",
+    "language": "es",
+    "featured": true
+  },
+  {
+    "id": "another-sunset-es",
+    "text": "Para ver otro atardecer.",
+    "category": "sensory",
+    "emotion": "wonder",
+    "language": "es"
+  },
+  {
+    "id": "make-yourself-proud-es",
+    "text": "Para sentirte orgulloso de ti mismo.",
+    "category": "achievement",
+    "emotion": "hope",
+    "language": "es"
+  },
+  {
+    "id": "laugh-until-cry-es",
+    "text": "Para reír hasta llorar.",
+    "category": "relational",
+    "emotion": "joy",
+    "language": "es"
+  },
+  {
+    "id": "smell-of-rain-es",
+    "text": "El olor de la lluvia.",
+    "category": "sensory",
+    "emotion": "calm",
+    "language": "es"
+  },
+  {
+    "id": "puppy-kisses-es",
+    "text": "Los besos de un perrito.",
+    "category": "sensory",
+    "emotion": "joy",
+    "language": "es"
+  },
+  {
+    "id": "good-cry-es",
+    "text": "La sensación después de llorar de verdad.",
+    "category": "relief",
+    "emotion": "relief",
+    "language": "es"
+  },
+  {
+    "id": "hasnt-met-you-es",
+    "text": "Alguien que aún no te ha conocido.",
+    "category": "relational",
+    "emotion": "hope",
+    "language": "es"
+  },
+  {
+    "id": "good-coffee-es",
+    "text": "Una taza de café realmente buena.",
+    "category": "sensory",
+    "emotion": "calm",
+    "language": "es"
+  },
+  {
+    "id": "first-bite-es",
+    "text": "El primer bocado de tu comida favorita.",
+    "category": "sensory",
+    "emotion": "joy",
+    "language": "es"
+  },
+  {
+    "id": "rain-sleep-es",
+    "text": "Quedarte dormido con el sonido de la lluvia.",
+    "category": "sensory",
+    "emotion": "calm",
+    "language": "es"
+  },
+  {
+    "id": "real-hug-es",
+    "text": "Un abrazo de alguien que lo dice en serio.",
+    "category": "relational",
+    "emotion": "comfort",
+    "language": "es"
+  },
+  {
+    "id": "reason-013-en",
+    "text": "To make your parents proud.",
+    "language": "en"
+  },
+  {
+    "id": "reason-013-es",
+    "text": "Para hacer sentir orgullosos a tus padres.",
+    "language": "es"
+  },
+  {
+    "id": "reason-014-en",
+    "text": "To conquer your fears.",
+    "language": "en"
+  },
+  {
+    "id": "reason-014-es",
+    "text": "Para vencer tus miedos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-015-en",
+    "text": "To see your family again.",
+    "language": "en"
+  },
+  {
+    "id": "reason-015-es",
+    "text": "Para ver a tu familia otra vez.",
+    "language": "es"
+  },
+  {
+    "id": "reason-016-en",
+    "text": "To see your favorite artist live.",
+    "language": "en"
+  },
+  {
+    "id": "reason-016-es",
+    "text": "Para ver en vivo a tu artista favorito.",
+    "language": "es"
+  },
+  {
+    "id": "reason-017-en",
+    "text": "To listen to music again.",
+    "language": "en"
+  },
+  {
+    "id": "reason-017-es",
+    "text": "Para escuchar música otra vez.",
+    "language": "es"
+  },
+  {
+    "id": "reason-018-en",
+    "text": "To experience a new culture.",
+    "language": "en"
+  },
+  {
+    "id": "reason-018-es",
+    "text": "Para experimentar una nueva cultura.",
+    "language": "es"
+  },
+  {
+    "id": "reason-019-en",
+    "text": "To make new friends.",
+    "language": "en"
+  },
+  {
+    "id": "reason-019-es",
+    "text": "Para hacer nuevos amigos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-020-en",
+    "text": "To inspire.",
+    "language": "en"
+  },
+  {
+    "id": "reason-020-es",
+    "text": "Para inspirar.",
+    "language": "es"
+  },
+  {
+    "id": "reason-021-en",
+    "text": "To have your own children.",
+    "language": "en"
+  },
+  {
+    "id": "reason-021-es",
+    "text": "Para tener tus propios hijos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-022-en",
+    "text": "To adopt your own pet.",
+    "language": "en"
+  },
+  {
+    "id": "reason-022-es",
+    "text": "Para adoptar tu propia mascota.",
+    "language": "es"
+  },
+  {
+    "id": "reason-023-en",
+    "text": "To meet your idols.",
+    "language": "en"
+  },
+  {
+    "id": "reason-023-es",
+    "text": "Para conocer a tus ídolos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-024-en",
+    "text": "To feel tears of happiness.",
+    "language": "en"
+  },
+  {
+    "id": "reason-024-es",
+    "text": "Para sentir lágrimas de felicidad.",
+    "language": "es"
+  },
+  {
+    "id": "reason-025-en",
+    "text": "To eat your favorite food.",
+    "language": "en"
+  },
+  {
+    "id": "reason-025-es",
+    "text": "Para comer tu comida favorita.",
+    "language": "es"
+  },
+  {
+    "id": "reason-026-en",
+    "text": "To see your siblings grow.",
+    "language": "en"
+  },
+  {
+    "id": "reason-026-es",
+    "text": "Para ver crecer a tus hermanos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-027-en",
+    "text": "To pass school.",
+    "language": "en"
+  },
+  {
+    "id": "reason-027-es",
+    "text": "Para aprobar tus estudios.",
+    "language": "es"
+  },
+  {
+    "id": "reason-028-en",
+    "text": "To get a tattoo.",
+    "language": "en"
+  },
+  {
+    "id": "reason-028-es",
+    "text": "Para hacerte un tatuaje.",
+    "language": "es"
+  },
+  {
+    "id": "reason-029-en",
+    "text": "To smile until your cheeks hurt.",
+    "language": "en"
+  },
+  {
+    "id": "reason-029-es",
+    "text": "Para sonreír hasta que te duelan las mejillas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-030-en",
+    "text": "To meet your internet friends.",
+    "language": "en"
+  },
+  {
+    "id": "reason-030-es",
+    "text": "Para conocer a tus amigos de internet.",
+    "language": "es"
+  },
+  {
+    "id": "reason-031-en",
+    "text": "To find someone who loves you as you deserve.",
+    "language": "en"
+  },
+  {
+    "id": "reason-031-es",
+    "text": "Para encontrar a alguien que te ame como mereces.",
+    "language": "es"
+  },
+  {
+    "id": "reason-032-en",
+    "text": "To eat ice cream on a hot day.",
+    "language": "en"
+  },
+  {
+    "id": "reason-032-es",
+    "text": "Para comer helado en un día caluroso.",
+    "language": "es"
+  },
+  {
+    "id": "reason-033-en",
+    "text": "To drink hot chocolate on a cold day.",
+    "language": "en"
+  },
+  {
+    "id": "reason-033-es",
+    "text": "Para tomar chocolate caliente en un día frío.",
+    "language": "es"
+  },
+  {
+    "id": "reason-034-en",
+    "text": "To see untouched snow in the morning.",
+    "language": "en"
+  },
+  {
+    "id": "reason-034-es",
+    "text": "Para ver nieve intacta por la mañana.",
+    "language": "es"
+  },
+  {
+    "id": "reason-035-en",
+    "text": "To see a sunset that sets the sky on fire.",
+    "language": "en"
+  },
+  {
+    "id": "reason-035-es",
+    "text": "Para ver un atardecer que incendia el cielo.",
+    "language": "es"
+  },
+  {
+    "id": "reason-036-en",
+    "text": "To see stars light up the sky.",
+    "language": "en"
+  },
+  {
+    "id": "reason-036-es",
+    "text": "Para ver las estrellas iluminar el cielo.",
+    "language": "es"
+  },
+  {
+    "id": "reason-037-en",
+    "text": "To read a book that changes your life.",
+    "language": "en"
+  },
+  {
+    "id": "reason-037-es",
+    "text": "Para leer un libro que te cambie la vida.",
+    "language": "es"
+  },
+  {
+    "id": "reason-038-en",
+    "text": "To see the flowers in the spring.",
+    "language": "en"
+  },
+  {
+    "id": "reason-038-es",
+    "text": "Para ver las flores en primavera.",
+    "language": "es"
+  },
+  {
+    "id": "reason-039-en",
+    "text": "To see the leaves change from green to brown.",
+    "language": "en"
+  },
+  {
+    "id": "reason-039-es",
+    "text": "Para ver las hojas cambiar de verde a marrón.",
+    "language": "es"
+  },
+  {
+    "id": "reason-040-en",
+    "text": "To travel abroad.",
+    "language": "en"
+  },
+  {
+    "id": "reason-040-es",
+    "text": "Para viajar al extranjero.",
+    "language": "es"
+  },
+  {
+    "id": "reason-041-en",
+    "text": "To learn a new language.",
+    "language": "en"
+  },
+  {
+    "id": "reason-041-es",
+    "text": "Para aprender un nuevo idioma.",
+    "language": "es"
+  },
+  {
+    "id": "reason-042-en",
+    "text": "To learn to draw.",
+    "language": "en"
+  },
+  {
+    "id": "reason-042-es",
+    "text": "Para aprender a dibujar.",
+    "language": "es"
+  },
+  {
+    "id": "reason-043-en",
+    "text": "To tell others your story in the hopes of helping them.",
+    "language": "en"
+  },
+  {
+    "id": "reason-043-es",
+    "text": "Para contarle tu historia a otros con la esperanza de ayudarlos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-044-en",
+    "text": "Baby kisses (the open-mouthed kind when they smack their lips on your cheek).",
+    "language": "en"
+  },
+  {
+    "id": "reason-044-es",
+    "text": "Los besos de bebé (esos con la boca abierta que te dejan en la mejilla).",
+    "language": "es"
+  },
+  {
+    "id": "reason-045-en",
+    "text": "Swear words and the release you feel when you say them.",
+    "language": "en"
+  },
+  {
+    "id": "reason-045-es",
+    "text": "Las malas palabras y el alivio que sientes al decirlas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-046-en",
+    "text": "Trampolines.",
+    "language": "en"
+  },
+  {
+    "id": "reason-046-es",
+    "text": "Los trampolines.",
+    "language": "es"
+  },
+  {
+    "id": "reason-047-en",
+    "text": "Ice cream.",
+    "language": "en"
+  },
+  {
+    "id": "reason-047-es",
+    "text": "El helado.",
+    "language": "es"
+  },
+  {
+    "id": "reason-048-en",
+    "text": "Stargazing.",
+    "language": "en"
+  },
+  {
+    "id": "reason-048-es",
+    "text": "Mirar las estrellas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-049-en",
+    "text": "Cloud watching.",
+    "language": "en"
+  },
+  {
+    "id": "reason-049-es",
+    "text": "Mirar las nubes.",
+    "language": "es"
+  },
+  {
+    "id": "reason-050-en",
+    "text": "Taking a shower and then sleeping on clean sheets.",
+    "language": "en"
+  },
+  {
+    "id": "reason-050-es",
+    "text": "Bañarte y luego dormir en sábanas limpias.",
+    "language": "es"
+  },
+  {
+    "id": "reason-051-en",
+    "text": "Receiving thoughtful gifts.",
+    "language": "en"
+  },
+  {
+    "id": "reason-051-es",
+    "text": "Recibir regalos hechos con cariño.",
+    "language": "es"
+  },
+  {
+    "id": "reason-052-en",
+    "text": "\"I saw this and thought of you.\"",
+    "language": "en"
+  },
+  {
+    "id": "reason-052-es",
+    "text": "\"Vi esto y pensé en ti.\"",
+    "language": "es"
+  },
+  {
+    "id": "reason-053-en",
+    "text": "The feeling you get when someone you love says, \"I love you.\"",
+    "language": "en"
+  },
+  {
+    "id": "reason-053-es",
+    "text": "La sensación de escuchar a alguien que amas decir: \"Te amo.\"",
+    "language": "es"
+  },
+  {
+    "id": "reason-054-en",
+    "text": "The relief you feel after crying.",
+    "language": "en"
+  },
+  {
+    "id": "reason-054-es",
+    "text": "El alivio que sientes después de llorar.",
+    "language": "es"
+  },
+  {
+    "id": "reason-055-en",
+    "text": "Sunshine.",
+    "language": "en"
+  },
+  {
+    "id": "reason-055-es",
+    "text": "La luz del sol.",
+    "language": "es"
+  },
+  {
+    "id": "reason-056-en",
+    "text": "The feeling you get when someone is listening to you, giving you their full attention.",
+    "language": "en"
+  },
+  {
+    "id": "reason-056-es",
+    "text": "La sensación de que alguien te está escuchando de verdad, con toda su atención.",
+    "language": "es"
+  },
+  {
+    "id": "reason-057-en",
+    "text": "Your future wedding.",
+    "language": "en"
+  },
+  {
+    "id": "reason-057-es",
+    "text": "Tu futura boda.",
+    "language": "es"
+  },
+  {
+    "id": "reason-058-en",
+    "text": "Your favorite candy bar.",
+    "language": "en"
+  },
+  {
+    "id": "reason-058-es",
+    "text": "Tu chocolate favorito.",
+    "language": "es"
+  },
+  {
+    "id": "reason-059-en",
+    "text": "New clothes.",
+    "language": "en"
+  },
+  {
+    "id": "reason-059-es",
+    "text": "Ropa nueva.",
+    "language": "es"
+  },
+  {
+    "id": "reason-060-en",
+    "text": "Witty puns.",
+    "language": "en"
+  },
+  {
+    "id": "reason-060-es",
+    "text": "Los juegos de palabras ingeniosos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-061-en",
+    "text": "Really good bread.",
+    "language": "en"
+  },
+  {
+    "id": "reason-061-es",
+    "text": "Un pan realmente bueno.",
+    "language": "es"
+  },
+  {
+    "id": "reason-062-en",
+    "text": "Holding your child in your arms for the first time.",
+    "language": "en"
+  },
+  {
+    "id": "reason-062-es",
+    "text": "Cargar a tu hijo por primera vez.",
+    "language": "es"
+  },
+  {
+    "id": "reason-063-en",
+    "text": "Completing a milestone - college, graduating, getting married, your dream job.",
+    "language": "en"
+  },
+  {
+    "id": "reason-063-es",
+    "text": "Cumplir una meta importante: la universidad, graduarte, casarte, el trabajo de tus sueños.",
+    "language": "es"
+  },
+  {
+    "id": "reason-064-en",
+    "text": "The kind of dreams where you wake up and can't stop smiling.",
+    "language": "en"
+  },
+  {
+    "id": "reason-064-es",
+    "text": "Esos sueños que te hacen despertar sonriendo sin poder parar.",
+    "language": "es"
+  },
+  {
+    "id": "reason-065-en",
+    "text": "The smell before and after it rains.",
+    "language": "en"
+  },
+  {
+    "id": "reason-065-es",
+    "text": "El olor antes y después de que llueve.",
+    "language": "es"
+  },
+  {
+    "id": "reason-066-en",
+    "text": "The sound of rain against a rooftop.",
+    "language": "en"
+  },
+  {
+    "id": "reason-066-es",
+    "text": "El sonido de la lluvia sobre un techo.",
+    "language": "es"
+  },
+  {
+    "id": "reason-067-en",
+    "text": "The feeling you get when you're dancing.",
+    "language": "en"
+  },
+  {
+    "id": "reason-067-es",
+    "text": "La sensación de estar bailando.",
+    "language": "es"
+  },
+  {
+    "id": "reason-068-en",
+    "text": "The person, or people, that mean the most to you. Stay alive for them.",
+    "language": "en"
+  },
+  {
+    "id": "reason-068-es",
+    "text": "La persona (o personas) que más te importan. Sigue aquí por ellos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-069-en",
+    "text": "Trying out new recipes.",
+    "language": "en"
+  },
+  {
+    "id": "reason-069-es",
+    "text": "Probar nuevas recetas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-070-en",
+    "text": "The feeling you get when your favorite song comes on the radio.",
+    "language": "en"
+  },
+  {
+    "id": "reason-070-es",
+    "text": "La sensación de escuchar tu canción favorita en la radio.",
+    "language": "es"
+  },
+  {
+    "id": "reason-071-en",
+    "text": "The rush you get when you step onto a stage.",
+    "language": "en"
+  },
+  {
+    "id": "reason-071-es",
+    "text": "La adrenalina de subir a un escenario.",
+    "language": "es"
+  },
+  {
+    "id": "reason-072-en",
+    "text": "You have to share your voice, your talents, and your knowledge with the world - they're too valuable not to.",
+    "language": "en"
+  },
+  {
+    "id": "reason-072-es",
+    "text": "Tienes que compartir tu voz, tu talento y lo que sabes con el mundo, porque valen mucho.",
+    "language": "es"
+  },
+  {
+    "id": "reason-073-en",
+    "text": "Breakfast in bed.",
+    "language": "en"
+  },
+  {
+    "id": "reason-073-es",
+    "text": "El desayuno en la cama.",
+    "language": "es"
+  },
+  {
+    "id": "reason-074-en",
+    "text": "Getting a middle seat in the movie theatre.",
+    "language": "en"
+  },
+  {
+    "id": "reason-074-es",
+    "text": "Conseguir un asiento en el medio del cine.",
+    "language": "es"
+  },
+  {
+    "id": "reason-075-en",
+    "text": "Breakfast for dinner - it's just better at night.",
+    "language": "en"
+  },
+  {
+    "id": "reason-075-es",
+    "text": "Desayunar en la cena, porque siempre sabe mejor de noche.",
+    "language": "es"
+  },
+  {
+    "id": "reason-076-en",
+    "text": "A feeling of being loved.",
+    "language": "en"
+  },
+  {
+    "id": "reason-076-es",
+    "text": "La sensación de sentirte amado.",
+    "language": "es"
+  },
+  {
+    "id": "reason-077-en",
+    "text": "Forgiveness.",
+    "language": "en"
+  },
+  {
+    "id": "reason-077-es",
+    "text": "El perdón.",
+    "language": "es"
+  },
+  {
+    "id": "reason-078-en",
+    "text": "Water balloon fights.",
+    "language": "en"
+  },
+  {
+    "id": "reason-078-es",
+    "text": "Las guerras de globos de agua.",
+    "language": "es"
+  },
+  {
+    "id": "reason-079-en",
+    "text": "New books by your favorite authors.",
+    "language": "en"
+  },
+  {
+    "id": "reason-079-es",
+    "text": "Los libros nuevos de tus autores favoritos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-080-en",
+    "text": "Fireflies.",
+    "language": "en"
+  },
+  {
+    "id": "reason-080-es",
+    "text": "Las luciérnagas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-081-en",
+    "text": "Birthdays.",
+    "language": "en"
+  },
+  {
+    "id": "reason-081-es",
+    "text": "Los cumpleaños.",
+    "language": "es"
+  },
+  {
+    "id": "reason-082-en",
+    "text": "Realizing that someone loves you.",
+    "language": "en"
+  },
+  {
+    "id": "reason-082-es",
+    "text": "Darte cuenta de que alguien te ama.",
+    "language": "es"
+  },
+  {
+    "id": "reason-083-en",
+    "text": "Spending the day with someone you love.",
+    "language": "en"
+  },
+  {
+    "id": "reason-083-es",
+    "text": "Pasar el día con alguien que amas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-084-en",
+    "text": "Spending the whole day in bed.",
+    "language": "en"
+  },
+  {
+    "id": "reason-084-es",
+    "text": "Pasar todo el día en la cama.",
+    "language": "es"
+  },
+  {
+    "id": "reason-085-en",
+    "text": "Eating a whole pint of your favorite ice cream.",
+    "language": "en"
+  },
+  {
+    "id": "reason-085-es",
+    "text": "Comerte un pote entero de tu helado favorito.",
+    "language": "es"
+  },
+  {
+    "id": "reason-086-en",
+    "text": "Floating in water on your back, just staring up at the sky.",
+    "language": "en"
+  },
+  {
+    "id": "reason-086-es",
+    "text": "Flotar de espaldas en el agua, mirando el cielo.",
+    "language": "es"
+  },
+  {
+    "id": "reason-087-en",
+    "text": "First dates - even the bad ones make for funny stories.",
+    "language": "en"
+  },
+  {
+    "id": "reason-087-es",
+    "text": "Las primeras citas: hasta las malas terminan siendo buenas historias.",
+    "language": "es"
+  },
+  {
+    "id": "reason-088-en",
+    "text": "Bonfires and the smell of smoke.",
+    "language": "en"
+  },
+  {
+    "id": "reason-088-es",
+    "text": "Las fogatas y su humo.",
+    "language": "es"
+  },
+  {
+    "id": "reason-089-en",
+    "text": "Relationships where you love someone, even if you're not in love with them.",
+    "language": "en"
+  },
+  {
+    "id": "reason-089-es",
+    "text": "Las relaciones donde quieres a alguien, aunque no estés enamorado de esa persona.",
+    "language": "es"
+  },
+  {
+    "id": "reason-090-en",
+    "text": "Coming home to someone you love.",
+    "language": "en"
+  },
+  {
+    "id": "reason-090-es",
+    "text": "Llegar a casa con alguien que amas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-091-en",
+    "text": "The color of autumn leaves when they change.",
+    "language": "en"
+  },
+  {
+    "id": "reason-091-es",
+    "text": "El color de las hojas de otoño cuando cambian.",
+    "language": "es"
+  },
+  {
+    "id": "reason-092-en",
+    "text": "Summer.",
+    "language": "en"
+  },
+  {
+    "id": "reason-092-es",
+    "text": "El verano.",
+    "language": "es"
+  },
+  {
+    "id": "reason-093-en",
+    "text": "Singing at the top of your lungs with your friends.",
+    "language": "en"
+  },
+  {
+    "id": "reason-093-es",
+    "text": "Cantar a todo pulmón con tus amigos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-094-en",
+    "text": "Cuddling.",
+    "language": "en"
+  },
+  {
+    "id": "reason-094-es",
+    "text": "Los abrazos tiernos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-095-en",
+    "text": "Being wrapped up in a warm bed.",
+    "language": "en"
+  },
+  {
+    "id": "reason-095-es",
+    "text": "Envolverte en una cama calientita.",
+    "language": "es"
+  },
+  {
+    "id": "reason-096-en",
+    "text": "Someone's skin against yours.",
+    "language": "en"
+  },
+  {
+    "id": "reason-096-es",
+    "text": "La piel de alguien contra la tuya.",
+    "language": "es"
+  },
+  {
+    "id": "reason-097-en",
+    "text": "Holding hands.",
+    "language": "en"
+  },
+  {
+    "id": "reason-097-es",
+    "text": "Tomarse de las manos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-098-en",
+    "text": "The kind of hug that lifts a weight off your shoulders - where your breath syncs with theirs, and for a moment you're the only two people in the world.",
+    "language": "en"
+  },
+  {
+    "id": "reason-098-es",
+    "text": "Esos abrazos que te quitan un peso de encima. Esos donde tu respiración se sincroniza con la del otro, y sientes que son las únicas dos personas en el mundo.",
+    "language": "es"
+  },
+  {
+    "id": "reason-099-en",
+    "text": "Singing off key with your best friends.",
+    "language": "en"
+  },
+  {
+    "id": "reason-099-es",
+    "text": "Cantar desafinado con tus mejores amigos.",
+    "language": "es"
+  },
+  {
+    "id": "reason-100-en",
+    "text": "Road trips.",
+    "language": "en"
+  },
+  {
+    "id": "reason-100-es",
+    "text": "Los viajes por carretera.",
+    "language": "es"
+  },
+  {
+    "id": "reason-101-en",
+    "text": "Spontaneous adventures.",
+    "language": "en"
+  },
+  {
+    "id": "reason-101-es",
+    "text": "Las aventuras espontáneas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-102-en",
+    "text": "The feeling of sand beneath your toes.",
+    "language": "en"
+  },
+  {
+    "id": "reason-102-es",
+    "text": "La sensación de la arena bajo tus pies.",
+    "language": "es"
+  },
+  {
+    "id": "reason-103-en",
+    "text": "The feeling of the first ocean wave rolling over your toes, ankles, and knees.",
+    "language": "en"
+  },
+  {
+    "id": "reason-103-es",
+    "text": "La sensación de la primera ola del mar envolviendo tus pies, tobillos y rodillas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-104-en",
+    "text": "Thunderstorms.",
+    "language": "en"
+  },
+  {
+    "id": "reason-104-es",
+    "text": "Las tormentas eléctricas.",
+    "language": "es"
+  },
+  {
+    "id": "reason-105-en",
+    "text": "Your first, or hundredth, trip to Disneyland.",
+    "language": "en"
+  },
+  {
+    "id": "reason-105-es",
+    "text": "Tu primer (o centésimo) viaje a Disneyland.",
+    "language": "es"
+  },
+  {
+    "id": "reason-106-en",
+    "text": "The taste of your favorite food.",
+    "language": "en"
+  },
+  {
+    "id": "reason-106-es",
+    "text": "El sabor de tu comida favorita.",
+    "language": "es"
+  },
+  {
+    "id": "reason-107-en",
+    "text": "The child-like feeling you get on New Year's morning.",
+    "language": "en"
+  },
+  {
+    "id": "reason-107-es",
+    "text": "Esa sensación de niño que tienes la mañana de Año Nuevo.",
+    "language": "es"
+  },
+  {
+    "id": "reason-108-en",
+    "text": "The day when everything finally goes your way.",
+    "language": "en"
+  },
+  {
+    "id": "reason-108-es",
+    "text": "El día en que por fin todo te sale bien.",
+    "language": "es"
+  },
+  {
+    "id": "reason-109-en",
+    "text": "Compliments and praise.",
+    "language": "en"
+  },
+  {
+    "id": "reason-109-es",
+    "text": "Los cumplidos y las palabras de aprecio.",
+    "language": "es"
+  },
+  {
+    "id": "reason-110-en",
+    "text": "To look at this moment in ten years' time and realize you did it.",
+    "language": "en"
+  },
+  {
+    "id": "reason-110-es",
+    "text": "Para mirar este momento dentro de diez años y darte cuenta de que lo lograste.",
+    "language": "es"
+  }
+]
