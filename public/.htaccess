@@ -1,0 +1,10 @@
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+# Canonical domain: www -> apex
+RewriteCond %{HTTP_HOST} ^www\.stillhererd\.com [NC]
+RewriteRule ^(.*)$ https://stillhererd.com/$1 [L,R=301]
+
+ErrorDocument 404 /404.html

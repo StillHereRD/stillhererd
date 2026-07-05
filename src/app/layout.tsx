@@ -17,6 +17,7 @@ const body = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://stillhererd.com"),
   title: "StillHereRD — A place to breathe",
   description:
     "A place to breathe. A place to keep going. One small step at a time.",
