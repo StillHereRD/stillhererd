@@ -4,13 +4,11 @@ import Link from "next/link";
 import { useTranslations } from "@/lib/useTranslations";
 import { needOptions } from "@/content/needs";
 import { interactiveCard } from "@/lib/styles";
-
-// Reveal pacing for this section only - how long after the intro line
-// the heading appears, then how long after that the first option, then
-// the gap between each following option.
-const HEADING_DELAY_MS = 400;
-const FIRST_OPTION_DELAY_MS = 900;
-const OPTION_STEP_MS = 220;
+import {
+  NEED_MENU_HEADING_DELAY_MS as HEADING_DELAY_MS,
+  NEED_MENU_FIRST_OPTION_DELAY_MS as FIRST_OPTION_DELAY_MS,
+  NEED_MENU_OPTION_STEP_MS as OPTION_STEP_MS,
+} from "@/lib/needMenuTiming";
 
 interface NeedMenuProps {
   /** When this section's own reveal sequence should start, relative to
@@ -59,6 +57,3 @@ export default function NeedMenu({ startDelayMs = 0 }: NeedMenuProps) {
     </section>
   );
 }
-
-export const NEED_MENU_TIMELINE_MS =
-  FIRST_OPTION_DELAY_MS + needOptions.length * OPTION_STEP_MS;

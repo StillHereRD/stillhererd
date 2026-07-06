@@ -1,7 +1,8 @@
 import Hero from "@/components/Hero";
-import NeedMenu, { NEED_MENU_TIMELINE_MS } from "@/components/NeedMenu";
+import NeedMenu from "@/components/NeedMenu";
 import DailyLetterTeaser from "@/components/DailyLetterTeaser";
 import ReasonForTomorrow from "@/components/ReasonForTomorrow";
+import { NEED_MENU_TIMELINE_MS } from "@/lib/needMenuTiming";
 
 // Hero reveals its title, then its tagline 500ms later, then holds for a
 // breath before the need menu begins - this is that held breath.
