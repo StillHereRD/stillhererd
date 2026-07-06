@@ -4,14 +4,18 @@ import { useEffect, useRef, useState } from "react";
 import BackHomeLink from "@/components/BackHomeLink";
 import { useLanguage } from "@/context/LanguageContext";
 import { useTranslations } from "@/lib/useTranslations";
-import { getRandomLetter } from "@/lib/letters";
-import type { Letter } from "@/content/schemas/letter";
+import { getRandomLetter, getLetterBaseId, getLetterByBaseId } from "@/lib/letters";
 import { card, primaryButton } from "@/lib/styles";
 
 export default function DailyLetterExperience() {
   const { locale } = useLanguage();
   const t = useTranslations();
-  const [letter, setLetter] = useState<Letter | null>(null);
+  // Store which story was picked, not the picked Letter object itself -
+  // that way, switching language afterward re-derives the same story in
+  // the new language on the next render instead of leaving stale text
+  // frozen from whichever language was active at click time.
+  const [baseId, setBaseId] = useState<string | null>(null);
+  const letter = baseId ? getLetterByBaseId(baseId, locale) : null;
   const headingRef = useRef<HTMLHeadingElement>(null);
 
   // The letter is picked at the moment of opening, not during render -
@@ -19,7 +23,8 @@ export default function DailyLetterExperience() {
   // mismatch to worry about, and it keeps the reveal "never spoiled up
   // front": nothing is chosen until you deliberately ask for it.
   function openLetter() {
-    setLetter(getRandomLetter(locale));
+    const picked = getRandomLetter(locale);
+    setBaseId(picked ? getLetterBaseId(picked) : null);
   }
 
   // Move focus to the letter's heading once it opens, so screen-reader

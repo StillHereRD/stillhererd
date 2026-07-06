@@ -16,3 +16,18 @@ export function getRandomLetter(locale: Locale): Letter | null {
   if (published.length === 0) return null;
   return published[Math.floor(Math.random() * published.length)];
 }
+
+/**
+ * The language-independent identity of a letter (ids are always
+ * "<story>-en" / "<story>-es"). Lets a caller remember *which* letter
+ * was picked without pinning it to the language active at pick time,
+ * so switching language afterward can look up the same story instead
+ * of showing stale text.
+ */
+export function getLetterBaseId(letter: Letter): string {
+  return letter.id.slice(0, -3);
+}
+
+export function getLetterByBaseId(baseId: string, locale: Locale): Letter | null {
+  return letters.find((letter) => letter.published && letter.id === `${baseId}-${locale}`) ?? null;
+}
