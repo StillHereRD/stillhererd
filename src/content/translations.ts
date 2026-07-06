@@ -28,6 +28,7 @@ interface Translations {
     alone: string;
     step: string;
     unsent: string;
+    wallOfHope: string;
   };
   dailyLetter: {
     label: string;
@@ -101,13 +102,9 @@ interface Translations {
   wallOfHope: {
     heading: string;
     intro: string;
-    formHeading: string;
-    placeholder: string;
-    countryLabel: string;
-    countryPlaceholder: string;
-    submit: string;
-    submitted: string;
-    guidelineWarning: string;
+    comingSoonThanks: string;
+    comingSoonNote: string;
+    comingSoonDetail: string;
     guidelinesHeading: string;
     guidelines: string[];
     moderationNote: string;
@@ -147,6 +144,7 @@ export const translations: Record<Locale, Translations> = {
       alone: "I need to feel less alone",
       step: "I need one small step",
       unsent: "I need to let something out",
+      wallOfHope: "I need a little hope",
     },
     dailyLetter: {
       label: "Today's Letter",
@@ -282,14 +280,10 @@ export const translations: Record<Locale, Translations> = {
       heading: "Wall of Hope",
       intro:
         "This isn't social media. No likes, no followers, no usernames, no replies. Just one small sentence, left by someone who made it through today, that might help someone else make it through theirs.",
-      formHeading: "Leave a sentence of hope",
-      placeholder: "One small sentence that might help someone else today.",
-      countryLabel: "Country (optional)",
-      countryPlaceholder: "e.g. Dominican Republic",
-      submit: "Send for review",
-      submitted: "Thank you. This will be read by a person before it appears here.",
-      guidelineWarning:
-        "Let's leave out links, emails, and phone numbers - this space stays anonymous.",
+      comingSoonThanks: "Thank you.",
+      comingSoonNote: "Public notes are coming soon.",
+      comingSoonDetail:
+        "We're building them carefully to keep this space safe and kind.",
       guidelinesHeading: "Community guidelines",
       guidelines: [
         "Be kind.",
@@ -338,6 +332,7 @@ export const translations: Record<Locale, Translations> = {
       alone: "Necesito compañía",
       step: "Necesito un pequeño paso",
       unsent: "Necesito sacar algo de adentro",
+      wallOfHope: "Necesito un poco de esperanza",
     },
     dailyLetter: {
       label: "La carta de hoy",
@@ -474,14 +469,10 @@ export const translations: Record<Locale, Translations> = {
       heading: "Muro de Esperanza",
       intro:
         "Esto no es una red social. Sin likes, sin seguidores, sin nombres de usuario, sin respuestas. Solo una pequeña frase, dejada por alguien que logró llegar hasta hoy, que puede ayudar a alguien más a llegar hasta el suyo.",
-      formHeading: "Deja una frase de esperanza",
-      placeholder: "Una pequeña frase que pueda ayudar a alguien más hoy.",
-      countryLabel: "País (opcional)",
-      countryPlaceholder: "ej. República Dominicana",
-      submit: "Enviar para revisión",
-      submitted: "Gracias. Esto será leído por una persona antes de aparecer aquí.",
-      guidelineWarning:
-        "Dejemos fuera enlaces, correos y números de teléfono - este espacio se mantiene anónimo.",
+      comingSoonThanks: "Gracias.",
+      comingSoonNote: "Las notas públicas llegarán pronto.",
+      comingSoonDetail:
+        "Las estamos construyendo con cuidado para mantener este espacio seguro y amable.",
       guidelinesHeading: "Normas de la comunidad",
       guidelines: [
         "Sé amable.",

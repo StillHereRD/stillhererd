@@ -1,5 +1,5 @@
 export interface NeedOption {
-  id: "breathe" | "alone" | "step" | "unsent";
+  id: "breathe" | "alone" | "step" | "unsent" | "wallOfHope";
   emoji: string;
   href: string;
 }
@@ -12,4 +12,5 @@ export const needOptions: NeedOption[] = [
   { id: "alone", emoji: "🤍", href: "/feel-less-alone" },
   { id: "step", emoji: "🌱", href: "/tiny-wins" },
   { id: "unsent", emoji: "✍", href: "/unsent-letter" },
+  { id: "wallOfHope", emoji: "🕊", href: "/wall-of-hope" },
 ];
