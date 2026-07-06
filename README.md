@@ -1,5 +1,7 @@
 # StillHereRD
 
+url: https://stillhererd.com/
+
 A quiet digital place to breathe, feel less alone, and take one small step - built for someone opening a screen at two in the morning, on one of the hardest days of their life.
 
 StillHereRD isn't a wellness dashboard. There are no streaks, no notifications, no accounts. Just a few small rooms, each built around a single feeling:
@@ -40,3 +42,4 @@ If the answer is no, rethink it.
 ---
 
 🇩🇴 From the Dominican Republic, with hope.
+stillhererd.com
