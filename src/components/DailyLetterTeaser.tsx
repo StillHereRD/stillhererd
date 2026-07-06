@@ -1,9 +1,11 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { useTranslations } from "@/lib/useTranslations";
-import { getDailyLetter } from "@/lib/letters";
+import { getRandomLetter } from "@/lib/letters";
+
 import { interactiveCard } from "@/lib/styles";
 
 interface DailyLetterTeaserProps {
@@ -15,7 +17,17 @@ interface DailyLetterTeaserProps {
 export default function DailyLetterTeaser({ delayMs = 0 }: DailyLetterTeaserProps) {
   const { locale } = useLanguage();
   const t = useTranslations();
-  const letter = getDailyLetter(locale);
+  // Same hydration-boundary idiom as ReasonForTomorrow - the server and
+  // the client's first render both need to agree on "nothing yet," so
+  // the random pick only happens post-mount, in the browser.
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
+
+  const letter = mounted ? getRandomLetter(locale) : null;
 
   if (!letter) return null;
 
@@ -29,10 +41,7 @@ export default function DailyLetterTeaser({ delayMs = 0 }: DailyLetterTeaserProp
       <p className="mb-2 text-sm font-medium tracking-wide text-accent uppercase">
         {t.dailyLetter.label}
       </p>
-      <h2
-        id="daily-letter-heading"
-        className="mb-3 font-serif text-xl font-medium text-primary"
-      >
+      <h2 id="daily-letter-heading" className="mb-3 font-serif text-xl font-medium text-primary">
         {letter.title}
       </h2>
       <p className="text-sm font-medium text-primary/70">
