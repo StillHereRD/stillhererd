@@ -7,7 +7,6 @@ import { subtleLink } from "@/lib/styles";
 const FOOTER_LINKS = [
   { href: "/philosophy", key: "philosophy" } as const,
   { href: "/open-source", key: "openSource" } as const,
-  { href: "/wall-of-hope", key: "wallOfHope" } as const,
   { href: "/support", key: "support" } as const,
   { href: "/privacy", key: "privacy" } as const,
   { href: "/contact", key: "contact" } as const,
@@ -25,6 +24,7 @@ export default function SiteFooter() {
           </Link>
         ))}
       </nav>
+      <p className="text-center text-xs text-foreground/60">{t.origin.crisisNote}</p>
       <p className="text-center text-xs text-foreground/40">
         🇩🇴 {t.origin.signature}
       </p>

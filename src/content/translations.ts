@@ -45,8 +45,11 @@ interface Translations {
   };
   tinyWins: {
     intro: string;
-    encouragement: string;
     items: Record<TinyWinId, string>;
+    /** Each card deepens through these 3 levels as it's clicked, capped
+     * at level3. Assigned round-robin by item order so different cards
+     * show different (but equally gentle) reflections. */
+    chains: { level1: string; level2: string; level3: string }[];
   };
   unsentLetter: {
     prompt: string;
@@ -114,7 +117,6 @@ interface Translations {
     openSource: string;
     support: string;
     privacy: string;
-    wallOfHope: string;
     contact: string;
   };
   languageToggle: {
@@ -123,6 +125,7 @@ interface Translations {
   };
   origin: {
     signature: string;
+    crisisNote: string;
   };
 }
 
@@ -161,8 +164,7 @@ export const translations: Record<Locale, Translations> = {
       out: "Breathe out",
     },
     tinyWins: {
-      intro: "Small things count too. Mark anything that's true for you today.",
-      encouragement: "That's enough. Truly.",
+      intro: "Small things count too. Tap anything that's true for you today.",
       items: {
         water: "I drank water",
         outOfBed: "I got out of bed",
@@ -170,7 +172,45 @@ export const translations: Record<Locale, Translations> = {
         ate: "I ate something",
         walked: "I walked outside",
         message: "I answered one message",
+        brushedTeeth: "I brushed my teeth",
+        openedCurtains: "I opened the curtains",
+        satOutside: "I sat outside for a moment",
+        deepBreath: "I took a few deep breaths",
+        changedClothes: "I changed my clothes",
+        listenedToMusic: "I listened to a song",
+        restedNoGuilt: "I let myself rest",
+        reachedOut: "I reached out to someone",
       },
+      chains: [
+        {
+          level1: "That's enough. Truly.",
+          level2:
+            "That's enough. Truly.\n\nYou don't need to do more for this to count. What you did already matters.",
+          level3:
+            "That's enough. Truly.\n\nYou don't need to do more for this to count. What you did already matters.\n\nYou're not behind, and you're not incomplete. Sometimes life doesn't need you to push harder - just to let yourself be here without demanding so much of yourself. What you did, however small it seems, is already enough for today.",
+        },
+        {
+          level1: "This counts.",
+          level2:
+            "This counts.\n\nYou didn't need to do it perfectly, or do more of it. Just this was enough.",
+          level3:
+            "This counts.\n\nYou didn't need to do it perfectly, or do more of it. Just this was enough.\n\nSome days everything feels harder than it should, and still you found a way to do this one small thing. That's not nothing. That's you, still here, still trying, in whatever way you could today.",
+        },
+        {
+          level1: "You showed up for yourself.",
+          level2:
+            "You showed up for yourself.\n\nNot in a big way - in a real way. That's what actually matters.",
+          level3:
+            "You showed up for yourself.\n\nNot in a big way - in a real way. That's what actually matters.\n\nYou don't have to measure this day against any other day. You did one gentle thing for yourself, and that's allowed to be the whole story right now - no bigger meaning required.",
+        },
+        {
+          level1: "That was worth doing.",
+          level2:
+            "That was worth doing.\n\nNot because of what it leads to next, but because you did it for you, right now.",
+          level3:
+            "That was worth doing.\n\nNot because of what it leads to next, but because you did it for you, right now.\n\nYou don't owe anyone a bigger version of today. This small thing, done in the middle of however you're feeling, is already a quiet kind of courage.",
+        },
+      ],
     },
     unsentLetter: {
       prompt:
@@ -304,7 +344,6 @@ export const translations: Record<Locale, Translations> = {
       openSource: "Open Source",
       support: "Support",
       privacy: "Privacy",
-      wallOfHope: "Wall of Hope",
       contact: "Contact",
     },
     languageToggle: {
@@ -313,6 +352,7 @@ export const translations: Record<Locale, Translations> = {
     },
     origin: {
       signature: "From the Dominican Republic, with hope.",
+      crisisNote: "In danger right now? Call 911, or your local emergency number.",
     },
   },
   es: {
@@ -350,8 +390,7 @@ export const translations: Record<Locale, Translations> = {
     },
     tinyWins: {
       intro:
-        "Las cosas pequeñas también cuentan. Marca lo que sea cierto para ti hoy.",
-      encouragement: "Con eso basta. De verdad.",
+        "Las cosas pequeñas también cuentan. Toca lo que sea cierto para ti hoy.",
       items: {
         water: "Tomé agua",
         outOfBed: "Me levanté de la cama",
@@ -359,7 +398,45 @@ export const translations: Record<Locale, Translations> = {
         ate: "Comí algo",
         walked: "Caminé afuera",
         message: "Respondí un mensaje",
+        brushedTeeth: "Me cepillé los dientes",
+        openedCurtains: "Abrí las cortinas",
+        satOutside: "Me senté afuera un momento",
+        deepBreath: "Respiré profundo unas veces",
+        changedClothes: "Me cambié de ropa",
+        listenedToMusic: "Escuché una canción",
+        restedNoGuilt: "Me permití descansar",
+        reachedOut: "Contacté a alguien",
       },
+      chains: [
+        {
+          level1: "Con eso basta. De verdad.",
+          level2:
+            "Con eso basta. De verdad.\n\nNo necesitas hacer más para que esto tenga valor. Lo que hiciste ya cuenta.",
+          level3:
+            "Con eso basta. De verdad.\n\nNo necesitas hacer más para que esto tenga valor. Lo que hiciste ya cuenta.\n\nNo estás atrasado, ni incompleto. A veces la vida no necesita que la empujes más fuerte, solo que te permitas estar aquí sin exigirte tanto. Esto que hiciste - por pequeño que parezca - ya es suficiente por hoy.",
+        },
+        {
+          level1: "Esto cuenta.",
+          level2:
+            "Esto cuenta.\n\nNo tenías que hacerlo perfecto, ni hacer más. Con esto fue suficiente.",
+          level3:
+            "Esto cuenta.\n\nNo tenías que hacerlo perfecto, ni hacer más. Con esto fue suficiente.\n\nHay días en que todo se siente más difícil de lo que debería, y aun así encontraste la manera de hacer esta pequeña cosa. Eso no es poca cosa. Eres tú, todavía aquí, todavía intentándolo, como pudiste hoy.",
+        },
+        {
+          level1: "Te acompañaste a ti mismo.",
+          level2:
+            "Te acompañaste a ti mismo.\n\nNo de una forma grande, sino de una forma real. Y eso es lo que en verdad importa.",
+          level3:
+            "Te acompañaste a ti mismo.\n\nNo de una forma grande, sino de una forma real. Y eso es lo que en verdad importa.\n\nNo tienes que comparar este día con ningún otro. Hiciste algo pequeño y amable por ti, y eso puede ser toda la historia por ahora - sin necesidad de un significado más grande.",
+        },
+        {
+          level1: "Valió la pena hacerlo.",
+          level2:
+            "Valió la pena hacerlo.\n\nNo por lo que venga después, sino porque lo hiciste por ti, ahora mismo.",
+          level3:
+            "Valió la pena hacerlo.\n\nNo por lo que venga después, sino porque lo hiciste por ti, ahora mismo.\n\nNo le debes a nadie una versión más grande de hoy. Esta pequeña cosa, hecha en medio de como sea que te estés sintiendo, ya es una forma silenciosa de valentía.",
+        },
+      ],
     },
     unsentLetter: {
       prompt:
@@ -493,7 +570,6 @@ export const translations: Record<Locale, Translations> = {
       openSource: "Código abierto",
       support: "Apoyo",
       privacy: "Privacidad",
-      wallOfHope: "Muro de Esperanza",
       contact: "Contacto",
     },
     languageToggle: {
@@ -502,6 +578,7 @@ export const translations: Record<Locale, Translations> = {
     },
     origin: {
       signature: "Desde República Dominicana, con esperanza.",
+      crisisNote: "¿Estás en peligro ahora mismo? Llama al 911, o al número de emergencia de tu país.",
     },
   },
 };
