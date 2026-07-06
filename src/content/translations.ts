@@ -2,6 +2,16 @@ import type { Locale } from "@/lib/locale";
 import type { TinyWinId } from "@/content/tinyWins";
 import type { ResourceCategory } from "@/content/schemas/resource";
 
+export type PrivacySectionId =
+  | "collect"
+  | "tracking"
+  | "cookies"
+  | "ads"
+  | "sellingData"
+  | "analytics"
+  | "openSource"
+  | "security";
+
 interface Translations {
   skipLink: string;
   common: {
@@ -80,10 +90,34 @@ interface Translations {
     emergencyNote: string;
     organizationsNote: string;
   };
+  privacy: {
+    heading: string;
+    subtitle: string;
+    sections: Record<PrivacySectionId, { heading: string; body: string }>;
+    viewSourceLabel: string;
+    promiseHeading: string;
+    promiseBody: string;
+  };
+  wallOfHope: {
+    heading: string;
+    intro: string;
+    formHeading: string;
+    placeholder: string;
+    countryLabel: string;
+    countryPlaceholder: string;
+    submit: string;
+    submitted: string;
+    guidelineWarning: string;
+    guidelinesHeading: string;
+    guidelines: string[];
+    moderationNote: string;
+  };
   nav: {
     philosophy: string;
     openSource: string;
     support: string;
+    privacy: string;
+    wallOfHope: string;
     contact: string;
   };
   languageToggle: {
@@ -202,10 +236,81 @@ export const translations: Record<Locale, Translations> = {
       organizationsNote:
         "Trusted organizations and local resources will be listed here as they're verified. For now, please reach out to people and services you already trust.",
     },
+    privacy: {
+      heading: "Privacy & Transparency",
+      subtitle: "You deserve a place that asks nothing from you.",
+      sections: {
+        collect: {
+          heading: "What we collect",
+          body: "Nothing. StillHereRD doesn't ask you to create an account, choose a username, or become a profile in some database. You can open every room on this site and leave without us knowing anything more about you than a normal visit to any website reveals.",
+        },
+        tracking: {
+          heading: "Tracking",
+          body: "There are no advertising trackers here, and we don't build a picture of who you are across visits. Keeping our reach small on purpose is part of the design, not a limitation we're working around.",
+        },
+        cookies: {
+          heading: "Cookies",
+          body: "This site doesn't use any cookies today. If a basic technical cookie ever becomes necessary - for example, to remember your language choice - it will never be used to track you or to serve advertising.",
+        },
+        ads: {
+          heading: "Ads",
+          body: "StillHereRD will never display advertising. People who are having a hard night are not an audience to be sold. Ever.",
+        },
+        sellingData: {
+          heading: "Selling data",
+          body: "We will never sell your data - because we don't collect it in the first place, and even if we did, it wouldn't be for sale.",
+        },
+        analytics: {
+          heading: "Analytics",
+          body: "If we ever add analytics, it will be privacy-respecting and anonymous - the kind that answers \"is this room helping anyone\" without answering \"who are you.\" Nothing invasive, ever.",
+        },
+        openSource: {
+          heading: "Open source",
+          body: "Anyone can read the actual code that runs this site, line by line, no exceptions. That's not a feature we bolted on - it's how we prove that what we say here is what actually happens.",
+        },
+        security: {
+          heading: "Security",
+          body: "We follow good security practices wherever we reasonably can. But our strongest one is simpler than any of them: we can't leak, lose, or misuse data we were never handed in the first place.",
+        },
+      },
+      viewSourceLabel: "View the source on GitHub",
+      promiseHeading: "Our promise",
+      promiseBody:
+        "We cannot promise life will always be easy.\n\nBut we can promise this place will always respect you.",
+    },
+    wallOfHope: {
+      heading: "Wall of Hope",
+      intro:
+        "This isn't social media. No likes, no followers, no usernames, no replies. Just one small sentence, left by someone who made it through today, that might help someone else make it through theirs.",
+      formHeading: "Leave a sentence of hope",
+      placeholder: "One small sentence that might help someone else today.",
+      countryLabel: "Country (optional)",
+      countryPlaceholder: "e.g. Dominican Republic",
+      submit: "Send for review",
+      submitted: "Thank you. This will be read by a person before it appears here.",
+      guidelineWarning:
+        "Let's leave out links, emails, and phone numbers - this space stays anonymous.",
+      guidelinesHeading: "Community guidelines",
+      guidelines: [
+        "Be kind.",
+        "No hate.",
+        "No politics.",
+        "No religion debates.",
+        "No medical advice.",
+        "No links.",
+        "No promotion.",
+        "No phone numbers.",
+        "No emails.",
+      ],
+      moderationNote:
+        "Every message is read by a person before it appears publicly - never automatically, never instantly.",
+    },
     nav: {
       philosophy: "Philosophy",
       openSource: "Open Source",
       support: "Support",
+      privacy: "Privacy",
+      wallOfHope: "Wall of Hope",
       contact: "Contact",
     },
     languageToggle: {
@@ -323,10 +428,81 @@ export const translations: Record<Locale, Translations> = {
       organizationsNote:
         "Organizaciones de confianza y recursos locales se irán agregando aquí a medida que se verifiquen. Por ahora, por favor acude a personas y servicios en los que ya confías.",
     },
+    privacy: {
+      heading: "Privacidad y transparencia",
+      subtitle: "Mereces un lugar que no te pida nada.",
+      sections: {
+        collect: {
+          heading: "Qué recopilamos",
+          body: "Nada. StillHereRD no te pide crear una cuenta, elegir un nombre de usuario, ni convertirte en un perfil dentro de una base de datos. Puedes abrir cada espacio de este sitio e irte sin que sepamos de ti más de lo que revela cualquier visita normal a una página web.",
+        },
+        tracking: {
+          heading: "Rastreo",
+          body: "Aquí no hay rastreadores publicitarios, y no construimos un perfil de quién eres a través de tus visitas. Mantener nuestro alcance pequeño es una decisión de diseño, no una limitación que estemos tratando de resolver.",
+        },
+        cookies: {
+          heading: "Cookies",
+          body: "Este sitio no usa cookies por ahora. Si alguna vez una cookie técnica básica se vuelve necesaria - por ejemplo, para recordar tu idioma - nunca se usará para rastrearte ni para mostrar publicidad.",
+        },
+        ads: {
+          heading: "Publicidad",
+          body: "StillHereRD nunca mostrará publicidad. Las personas que están pasando una noche difícil no son una audiencia que se vende. Nunca.",
+        },
+        sellingData: {
+          heading: "Venta de datos",
+          body: "Nunca venderemos tus datos, porque ni siquiera los recopilamos - y aunque lo hiciéramos, no estarían a la venta.",
+        },
+        analytics: {
+          heading: "Analítica",
+          body: "Si alguna vez añadimos analítica, será respetuosa con la privacidad y anónima - del tipo que responde \"¿esto está ayudando a alguien?\" sin responder \"¿quién eres?\". Nunca invasiva.",
+        },
+        openSource: {
+          heading: "Código abierto",
+          body: "Cualquiera puede leer el código real que hace funcionar este sitio, línea por línea, sin excepciones. No es una función añadida por adorno: es cómo demostramos que lo que decimos aquí es lo que realmente sucede.",
+        },
+        security: {
+          heading: "Seguridad",
+          body: "Seguimos buenas prácticas de seguridad siempre que podemos razonablemente. Pero la más fuerte de todas es más simple que cualquiera: no podemos filtrar, perder ni usar mal datos que nunca nos entregaron.",
+        },
+      },
+      viewSourceLabel: "Ver el código en GitHub",
+      promiseHeading: "Nuestra promesa",
+      promiseBody:
+        "No podemos prometer que la vida siempre será fácil.\n\nPero sí podemos prometer que este lugar siempre te respetará.",
+    },
+    wallOfHope: {
+      heading: "Muro de Esperanza",
+      intro:
+        "Esto no es una red social. Sin likes, sin seguidores, sin nombres de usuario, sin respuestas. Solo una pequeña frase, dejada por alguien que logró llegar hasta hoy, que puede ayudar a alguien más a llegar hasta el suyo.",
+      formHeading: "Deja una frase de esperanza",
+      placeholder: "Una pequeña frase que pueda ayudar a alguien más hoy.",
+      countryLabel: "País (opcional)",
+      countryPlaceholder: "ej. República Dominicana",
+      submit: "Enviar para revisión",
+      submitted: "Gracias. Esto será leído por una persona antes de aparecer aquí.",
+      guidelineWarning:
+        "Dejemos fuera enlaces, correos y números de teléfono - este espacio se mantiene anónimo.",
+      guidelinesHeading: "Normas de la comunidad",
+      guidelines: [
+        "Sé amable.",
+        "Sin odio.",
+        "Sin política.",
+        "Sin debates religiosos.",
+        "Sin consejos médicos.",
+        "Sin enlaces.",
+        "Sin promoción.",
+        "Sin números de teléfono.",
+        "Sin correos electrónicos.",
+      ],
+      moderationNote:
+        "Cada mensaje es leído por una persona antes de aparecer públicamente - nunca de forma automática, nunca al instante.",
+    },
     nav: {
       philosophy: "Filosofía",
       openSource: "Código abierto",
       support: "Apoyo",
+      privacy: "Privacidad",
+      wallOfHope: "Muro de Esperanza",
       contact: "Contacto",
     },
     languageToggle: {

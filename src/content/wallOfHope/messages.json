@@ -1,0 +1,62 @@
+[
+  {
+    "id": "still-here-en",
+    "text": "I'm still here.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "one-more-day-en",
+    "text": "One more day.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "you-matter-en",
+    "text": "You matter.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "gets-lighter-en",
+    "text": "It gets lighter.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "proud-of-you-en",
+    "text": "I'm proud of you.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "sunrise-en",
+    "text": "The sunrise is worth seeing.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "still-here-es",
+    "text": "Todavía estoy aquí.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "one-more-day-es",
+    "text": "Un día más.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "you-matter-es",
+    "text": "Importas.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "gets-lighter-es",
+    "text": "Se vuelve más ligero.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "proud-of-you-es",
+    "text": "Estoy orgulloso de ti.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  },
+  {
+    "id": "sunrise-es",
+    "text": "El amanecer vale la pena verlo.",
+    "createdAt": "2026-07-06T00:00:00.000Z"
+  }
+]
