@@ -51,6 +51,12 @@ interface Translations {
     note: string;
     categories: Record<ResourceCategory, string>;
   };
+  resourceCard: {
+    /** {platform} is replaced with the resource's `platform` field. */
+    externalConfirm: string;
+    cancel: string;
+    continueLabel: string;
+  };
   contact: {
     heading: string;
     intro: string;
@@ -155,6 +161,11 @@ export const translations: Record<Locale, Translations> = {
         book: "Books",
         article: "Articles",
       },
+    },
+    resourceCard: {
+      externalConfirm: "This opens on {platform}, outside StillHereRD.",
+      cancel: "Never mind",
+      continueLabel: "Continue",
     },
     contact: {
       heading: "Say hello",
@@ -271,6 +282,11 @@ export const translations: Record<Locale, Translations> = {
         book: "Libros",
         article: "Artículos",
       },
+    },
+    resourceCard: {
+      externalConfirm: "Esto abre {platform}, fuera de StillHereRD.",
+      cancel: "Mejor no",
+      continueLabel: "Continuar",
     },
     contact: {
       heading: "Saluda",

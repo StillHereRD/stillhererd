@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "stillhererd-playlist-en",
+    "title": "The StillHereRD Playlist",
+    "description": "Songs picked to sit with you, not fix you - for the nights that are heavier than others.",
+    "category": "music",
+    "url": "https://open.spotify.com/playlist/4dFFqzst8u1wZ6haa4k7sH?si=E1l70cviQFe9_losA3oUfQ",
+    "platform": "Spotify",
+    "language": "en",
+    "featured": true,
+    "confirmExternal": true
+  },
+  {
+    "id": "stillhererd-playlist-es",
+    "title": "El playlist de StillHereRD",
+    "description": "Canciones elegidas para acompañarte, no para arreglarte - para las noches más pesadas que otras.",
+    "category": "music",
+    "url": "https://open.spotify.com/playlist/4dFFqzst8u1wZ6haa4k7sH?si=E1l70cviQFe9_losA3oUfQ",
+    "platform": "Spotify",
+    "language": "es",
+    "featured": true,
+    "confirmExternal": true
+  }
+]

@@ -38,4 +38,9 @@ export interface Resource {
   priority?: number;
   instagram?: string;
   durationMinutes?: number;
+  /** When true, clicking the card shows a short heads-up (naming the
+   * platform) before leaving, instead of navigating immediately - for
+   * links to somewhere less self-explanatory than a single video or
+   * article, e.g. a whole streaming playlist. */
+  confirmExternal?: boolean;
 }
