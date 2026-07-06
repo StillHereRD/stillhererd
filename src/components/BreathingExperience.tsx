@@ -8,8 +8,8 @@ type Phase = "in" | "hold" | "out";
 
 const PHASE_DURATION_MS: Record<Phase, number> = {
   in: 3000,
-  hold: 3000,
-  out: 5000,
+  hold: 2000,
+  out: 3000,
 };
 
 const NEXT_PHASE: Record<Phase, Phase> = {
