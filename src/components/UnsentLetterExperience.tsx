@@ -38,6 +38,16 @@ export default function UnsentLetterExperience() {
         {t.unsentLetter.prompt}
       </p>
 
+      <div
+        className={`motion-safe:animate-fade-in flex w-full flex-col items-center gap-1 p-5 text-center ${card}`}
+      >
+        <p className="font-serif font-medium text-primary">
+          {t.wallOfHope.comingSoonThanks}
+        </p>
+        <p className="text-sm text-foreground/80">{t.wallOfHope.comingSoonNote}</p>
+        <p className="text-xs text-foreground/60">{t.wallOfHope.comingSoonDetail}</p>
+      </div>
+
       <textarea
         ref={textareaRef}
         value={text}
