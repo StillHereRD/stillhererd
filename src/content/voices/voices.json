@@ -94,5 +94,101 @@
     "language": "es",
     "priority": 4,
     "confirmExternal": true
+  },
+  {
+    "id": "theovon-en",
+    "title": "@theovon",
+    "description": "Recommended by StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/theovon/",
+    "platform": "Instagram",
+    "instagram": "theovon",
+    "language": "en",
+    "priority": 5,
+    "confirmExternal": true
+  },
+  {
+    "id": "theovon-es",
+    "title": "@theovon",
+    "description": "Recomendado por StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/theovon/",
+    "platform": "Instagram",
+    "instagram": "theovon",
+    "language": "es",
+    "priority": 5,
+    "confirmExternal": true
+  },
+  {
+    "id": "diogojared-en",
+    "title": "@diogo.jared",
+    "description": "Recommended by StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/diogo.jared/",
+    "platform": "Instagram",
+    "instagram": "diogo.jared",
+    "language": "en",
+    "priority": 6,
+    "confirmExternal": true
+  },
+  {
+    "id": "diogojared-es",
+    "title": "@diogo.jared",
+    "description": "Recomendado por StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/diogo.jared/",
+    "platform": "Instagram",
+    "instagram": "diogo.jared",
+    "language": "es",
+    "priority": 6,
+    "confirmExternal": true
+  },
+  {
+    "id": "zacharycummings-en",
+    "title": "@zacharycummings_",
+    "description": "Recommended by StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/zacharycummings_/",
+    "platform": "Instagram",
+    "instagram": "zacharycummings_",
+    "language": "en",
+    "priority": 7,
+    "confirmExternal": true
+  },
+  {
+    "id": "zacharycummings-es",
+    "title": "@zacharycummings_",
+    "description": "Recomendado por StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/zacharycummings_/",
+    "platform": "Instagram",
+    "instagram": "zacharycummings_",
+    "language": "es",
+    "priority": 7,
+    "confirmExternal": true
+  },
+  {
+    "id": "officialyourprouddad-en",
+    "title": "@officialyourprouddad",
+    "description": "Recommended by StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/officialyourprouddad/",
+    "platform": "Instagram",
+    "instagram": "officialyourprouddad",
+    "language": "en",
+    "priority": 8,
+    "confirmExternal": true
+  },
+  {
+    "id": "officialyourprouddad-es",
+    "title": "@officialyourprouddad",
+    "description": "Recomendado por StillHereRD.",
+    "category": "voice",
+    "url": "https://www.instagram.com/officialyourprouddad/",
+    "platform": "Instagram",
+    "instagram": "officialyourprouddad",
+    "language": "es",
+    "priority": 8,
+    "confirmExternal": true
   }
 ]
