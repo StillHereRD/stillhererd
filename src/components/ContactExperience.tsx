@@ -3,7 +3,7 @@
 import BackHomeLink from "@/components/BackHomeLink";
 import { useTranslations } from "@/lib/useTranslations";
 import { card } from "@/lib/styles";
-import { INSTAGRAM_HANDLE, EMAIL, GITHUB_REPO_URL } from "@/lib/externalLinks";
+import { INSTAGRAM_HANDLE, EMAIL, GITHUB_PROFILE_URL } from "@/lib/externalLinks";
 
 export default function ContactExperience() {
   const t = useTranslations();
@@ -40,7 +40,7 @@ export default function ContactExperience() {
           <span className="text-primary/70">{EMAIL}</span>
         </a>
         <a
-          href={GITHUB_REPO_URL}
+          href={GITHUB_PROFILE_URL}
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-between px-5 py-4 text-foreground transition-colors duration-(--duration-micro) hover:bg-muted/60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent motion-reduce:transition-none"

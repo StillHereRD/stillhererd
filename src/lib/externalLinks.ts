@@ -3,3 +3,4 @@
 export const INSTAGRAM_HANDLE = "StillHereRD";
 export const EMAIL = "dliriano@proton.me";
 export const GITHUB_REPO_URL = "https://github.com/StillHereRD/StillHereRD";
+export const GITHUB_PROFILE_URL = "https://github.com/StillHereRD";
